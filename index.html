@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QCM Prof de Maths</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- MathJax pour LaTeX -->
+    <script>
+        window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>QCM interactif - Prof de Maths</h1>
+</header>
+
+<main>
+    <section id="qcm">
+        <h2>Répondez aux questions :</h2>
+        <div id="questions"></div>
+        <button class="btn" onclick="corriger()">Corriger</button>
+        <p id="resultat"></p>
+    </section>
+</main>
+
+<footer>
+    &copy; 2025 - Site du Prof de Maths
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+

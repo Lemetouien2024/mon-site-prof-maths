@@ -1,0 +1,18 @@
+[
+  {
+    "texte": "Résoudre : $2x + 3 = 7$",
+    "reponses": ["$x = 1$", "$x = 2$", "$x = 3$"],
+    "correcte": 1
+  },
+  {
+    "texte": "La dérivée de $x^3$ est :",
+    "reponses": ["$2x$", "$3x^2$", "$x^2$"],
+    "correcte": 1
+  },
+  {
+    "texte": "Développer : $(x+1)^2$",
+    "reponses": ["$x^2 + 2x + 1$", "$x^2 + 1$", "$x^2 + x + 1$"],
+    "correcte": 0
+  }
+]
+
